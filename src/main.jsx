@@ -7,10 +7,11 @@ import './index.css';
 // import { SimpleForm } from './01-useState/SimpleForm'
 // import { SimpleFormWithCustomHook } from './01-useState/SimpleFormWithCustomHook'
 // import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
-import { FocusScreen } from './04-useRef/FocusScreen';
+// import { FocusScreen } from './04-useRef/FocusScreen';
+import { Layout } from './05-useLayoutEffectt/Layout';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <FocusScreen />
+    <Layout />
   </StrictMode>
 );
