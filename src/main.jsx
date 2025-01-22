@@ -8,10 +8,11 @@ import './index.css';
 // import { SimpleFormWithCustomHook } from './01-useState/SimpleFormWithCustomHook'
 // import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
 // import { FocusScreen } from './04-useRef/FocusScreen';
-import { Layout } from './05-useLayoutEffectt/Layout';
+// import { Layout } from './05-useLayoutEffectt/Layout';
+import { MemoHook } from './06-memos/MemoHook';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Layout />
+    <MemoHook />
   </StrictMode>
 );
