@@ -11,10 +11,11 @@ import './index.css';
 // import { Layout } from './05-useLayoutEffectt/Layout';
 // import { MemoHook } from './06-memos/MemoHook';
 // import { CallbackHook } from './06-memos/CallbackHook';
-import { Padre } from './07-tarea-memo/Padre';
+// import { Padre } from './07-tarea-memo/Padre';
+import { TodoApp } from './08-useReducer/TodoApp';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Padre />
+    <TodoApp />
   </StrictMode>
 );
